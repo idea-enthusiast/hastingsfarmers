@@ -1,8 +1,9 @@
 body{
 	font-family: 'Vollkorn', serif;
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 0 15px;
+	color:#2c3357;
+}
+img {
+	max-width: 100%;
 }
 h1, h2, h3, h4, h5{
 	font-weight: normal;
@@ -10,6 +11,14 @@ h1, h2, h3, h4, h5{
 article h1{
 	font-size: 2em;
 }
+
+.orange-text {
+	color:#d36c40;
+}
+.blue-text {
+	color:#2c3357;
+}
+
 /*Header*/
 header{
 	text-align: center;
@@ -33,17 +42,16 @@ nav{
 	margin: 50px 0 0;
 }
 
-.featured img{
-	float: left;
-	margin-right: 15px;
+/* Footer */
+footer {
+	background-color: #9dc4c3;
+	color: #FFFFFF;
+	padding-top: 30px;
+	padding-bottom: 15px;
 }
-
-header, footer, .products, .featured, .findafarmer{
-	float: left;
-	clear:both;
-	width: 100%;
+footer h5 {
+	color:#2c3357;
 }
-
-aside article{
-
+footer a {
+	color:#2c3357;
 }
